@@ -1,0 +1,6 @@
+{
+  "uuid": "vsphere-desktop-widget@local",
+  "name": "vSphere ESXi Desktop Monitor",
+  "description": "Physical ESXi host CPU, RAM and CPU temperature from a local vCenter metrics cache",
+  "shell-version": ["46", "47", "48", "49", "50"]
+}

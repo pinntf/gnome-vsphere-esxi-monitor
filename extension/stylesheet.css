@@ -1,0 +1,44 @@
+.vs-card {
+  width: 320px;
+  background-color: rgba(16, 22, 35, 0.92);
+  border: 1px solid rgba(140, 166, 200, 0.26);
+  border-radius: 18px;
+  padding: 16px 18px;
+  color: #f1f5fa;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+.vs-title { font-size: 13px; font-weight: 800; color: #b7d8ff; padding-bottom: 8px; }
+.vs-host { padding: 11px 0; border-top: 1px solid rgba(255,255,255,0.12); spacing: 8px; }
+.vs-hostname { font-size: 14px; font-weight: bold; }
+.vs-online { color: #56dfa2; font-size: 10px; font-weight: bold; }
+.vs-offline { color: #ff8787; font-size: 10px; font-weight: bold; }
+.vs-meter { spacing: 5px; }
+.vs-metric-name, .vs-muted { color: #9daec4; font-size: 11px; }
+.vs-metric-value { font-size: 11px; font-weight: bold; color: #f1f5fa; }
+.vs-track { background-color: #314159; border-radius: 4px; }
+.vs-fill { background-color: #55a9f8; border-radius: 4px; }
+.vs-fill-warning { background-color: #f8b85b; border-radius: 4px; }
+.vs-fill-danger { background-color: #fc6f76; border-radius: 4px; }
+.vs-footer { font-size: 10px; color: #8295ae; padding-top: 8px; }
+.vs-error { color: #ff8787; font-weight: bold; }
+
+.vs-temperature { font-size: 11px; font-weight: 600; color: #d7e7ff; }
+
+/* Temperature status: white = normal, muted yellow = attention, red = investigate. */
+.vs-temperature-normal { color: #f1f5fa; }
+.vs-temperature-warning { color: #d5bd79; }
+.vs-temperature-critical { color: #f07474; }
+.vs-temperature-unknown { color: #95a2b4; }
+
+.vs-hardware-row { spacing: 6px; }
+.vs-health-ok { color: #f1f5fa; font-size: 11px; }
+.vs-health-warning { color: #d5bd79; font-size: 11px; }
+.vs-health-critical { color: #f07474; font-size: 11px; font-weight: bold; }
+.vs-health-unknown { color: #95a2b4; font-size: 11px; }
+
+/* One compact row: temperatures left, fans and power supplies right. */
+.vs-info-row { spacing: 3px; }
+.vs-info-temperature { font-size: 10px; font-weight: 600; }
+.vs-info-health { spacing: 3px; }
+.vs-info-health-label { font-size: 10px; }
+.vs-info-separator { color: #8295ae; font-size: 10px; }
